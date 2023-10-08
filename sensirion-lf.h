@@ -35,7 +35,11 @@
 #ifndef SENSIRION_LF_H
 #define SENSIRION_LF_H
 
-#include <Arduino.h>
+#include<inttypes.h>
+#if defined(ARDUINO) && ARDUINO >= 100
+#include "Arduino.h"
+#endif
+
 #include <Wire.h>
 
 class SensirionLF
