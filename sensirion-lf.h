@@ -35,6 +35,9 @@
 #ifndef SENSIRION_LF_H
 #define SENSIRION_LF_H
 
+#include <Arduino.h>
+#include <Wire.h>
+
 class SensirionLF
 {
 public:

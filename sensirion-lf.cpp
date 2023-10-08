@@ -34,8 +34,6 @@
 
 // Adapted from https://github.com/Sensirion/arduino-liquid-flow-snippets/blob/master/example_00_measurement_LD20/example_00_measurement_LD20.ino
 
-#include <Arduino.h>
-#include <Wire.h>
 #include "sensirion-lf.h"
 
 static const float   SLF3X_SCALE_FACTOR_FLOW = 500.0;
